@@ -1,0 +1,41 @@
+# ── Build output ──────────────────────────────────────
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# ── Object files ──────────────────────────────────────
+*.o
+*.d
+*.su
+*.cyclo
+
+# ── IDE / Eclipse specific ────────────────────────────
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+
+# ── CubeIDE / CubeMX generated project files ─────────
+# Keep .project, .cproject, .ioc — needed to open in CubeIDE
+# Keep .settings/ — needed for build config
+# Ignore these generated temp files:
+*.bak
+.mxproject
+
+# ── macOS ─────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows ───────────────────────────────────────────
+Thumbs.db
+desktop.ini
+
+# ── Linux ─────────────────────────────────────────────
+*~
+
+# ── Docs / temp ───────────────────────────────────────
+*.tmp
